@@ -5,10 +5,6 @@ const ask = readline.createInterface({
   output: process.stdout,
 });
 
-// const close = function() {
-//   console.log('Thanks for using me, caio!');
-//   ask.close();
-// }
 
 const beep = function() {
   ask.question('What do you want to do?', (answer) => {
